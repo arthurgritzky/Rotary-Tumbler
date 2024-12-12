@@ -29,19 +29,19 @@ Using an Arduino UNO paired with a CNC-Shield makes the control system modular a
 
 ## Bill of Materials
 
-2x stepper motor NEMA 17
-2x rod (8mmx225mm) // I used a threaded rod 
-2x shaft couplings (5mm to 8mm)
-13x socket head screw M3x8
-59x philips head screw M4x16
-59x M4 hex nut 
-5x  M3 hex nut
-6x set screw M5x8
-4x 608 bearing link
-1x Arduino Uno
-1x CNC-Shield with stepper driver
-1x LM 2596 Buck converter or another power supply to power the Arduino
-1x Power supply 12V with around 2 A
+* 2x stepper motor NEMA 17
+* 2x rod (8mmx225mm) // I used a threaded rod 
+* 2x shaft couplings (5mm to 8mm)
+* 13x socket head screw M3x8
+* 59x philips head screw M4x16
+* 59x M4 hex nut 
+* 5x  M3 hex nut
+* 6x set screw M5x8
+* 4x 608 bearing link
+* 1x Arduino Uno
+* 1x CNC-Shield with stepper driver
+* 1x LM 2596 Buck converter or another power supply to power the Arduino
+* 1x Power supply 12V with around 2 A
 
 
 For the print files please check out: https://makerworld.com/en/models/865983#profileId-817201
