@@ -1,6 +1,13 @@
 # Rotary-Tumbler
 This repo contains the code, 3D-files and assembly guide for a 3D printed rotary tumbler.
 
+
+
+
+https://github.com/user-attachments/assets/f704322f-23de-4973-9dfd-7d19de5ad70f
+
+
+
 ## Introduction
 
 Rotary tumblers are a fun and versatile addition to your manufacturing toolkit. They can be used for sanding and polishing parts, which is particularly useful for preparing 3D-printed components for painting. Other popular applications include the recreational polishing of stones, removing rust, or cleaning paint off small metal parts. These capabilities make rotary tumblers a valuable tool for your future projects.
@@ -17,6 +24,8 @@ Driving both rollers is a critical aspect of this design. Without this feature, 
 ## Controlling 
 The stepper motors in this rotary tumbler are controlled using a CNC-Shield mounted on an Arduino UNO, equipped with two A4988 stepper motor drivers positioned on the X and Y axes. To ensure smooth and precise motion, 1/8 microstepping has been enabled on both motors. This setup offers a simple yet powerful control solution, allowing for precise speed adjustments and ensuring reliable operation over extended periods.
 Using an Arduino UNO paired with a CNC-Shield makes the control system modular and easily replicable for other makers. The A4988 drivers are a cost-effective choice, providing the necessary torque and control for low-RPM applications without requiring complex programming or additional hardware. By leveraging this setup, the tumbler achieves consistent performance and can be easily tuned or modified as needed. The entire system is powered by a 12V, 2A power supply salvaged from an LED strip, making it a cost-effective and accessible choice. To safely power the Arduino UNO, an LM2596 buck converter is used to step the 12V supply down to 6V, which is then fed into the Arduino's input jack.
+
+
 
 For the print files please check out: https://makerworld.com/en/models/865983#profileId-817201
 
