@@ -4,7 +4,9 @@ This repo contains the code, 3D-files and assembly guide for a 3D printed rotary
 
 
 
-https://github.com/user-attachments/assets/f704322f-23de-4973-9dfd-7d19de5ad70f
+
+https://github.com/user-attachments/assets/90043965-0956-482e-ac33-672fab636f33
+
 
 
 
