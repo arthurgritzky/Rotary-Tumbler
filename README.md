@@ -27,6 +27,21 @@ Driving both rollers is a critical aspect of this design. Without this feature, 
 The stepper motors in this rotary tumbler are controlled using a CNC-Shield mounted on an Arduino UNO, equipped with two A4988 stepper motor drivers positioned on the X and Y axes. To ensure smooth and precise motion, 1/8 microstepping has been enabled on both motors. This setup offers a simple yet powerful control solution, allowing for precise speed adjustments and ensuring reliable operation over extended periods.
 Using an Arduino UNO paired with a CNC-Shield makes the control system modular and easily replicable for other makers. The A4988 drivers are a cost-effective choice, providing the necessary torque and control for low-RPM applications without requiring complex programming or additional hardware. By leveraging this setup, the tumbler achieves consistent performance and can be easily tuned or modified as needed. The entire system is powered by a 12V, 2A power supply salvaged from an LED strip, making it a cost-effective and accessible choice. To safely power the Arduino UNO, an LM2596 buck converter is used to step the 12V supply down to 6V, which is then fed into the Arduino's input jack.
 
+## Bill of Materials
+
+2x stepper motor NEMA 17
+2x rod (8mmx225mm) // I used a threaded rod 
+2x shaft couplings (5mm to 8mm)
+13x socket head screw M3x8
+59x philips head screw M4x16
+59x M4 hex nut 
+5x  M3 hex nut
+6x set screw M5x8
+4x 608 bearing link
+1x Arduino Uno
+1x CNC-Shield with stepper driver
+1x LM 2596 Buck converter or another power supply to power the Arduino
+1x Power supply 12V with around 2 A
 
 
 For the print files please check out: https://makerworld.com/en/models/865983#profileId-817201
